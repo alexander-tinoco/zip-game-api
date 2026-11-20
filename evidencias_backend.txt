@@ -1,0 +1,32 @@
+c[ info ] booting application to run tests...
+✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔[ success ] Dropped tables successfully
+[ info ] Upgrading migrations version from "1" to "2"
+❯ migrating database/migrations/1763600000001_create_users_table
+[2K[1A[2K[G❯ migrated database/migrations/1763600000001_create_users_table
+❯ migrating database/migrations/1763600000002_create_access_tokens_table
+[2K[1A[2K[G❯ migrated database/migrations/1763600000002_create_access_tokens_table
+❯ migrating database/migrations/1763600000003_create_levels_table
+[2K[1A[2K[G❯ migrated database/migrations/1763600000003_create_levels_table
+❯ migrating database/migrations/1763600000004_create_game_sessions_table
+[2K[1A[2K[G❯ migrated database/migrations/1763600000004_create_game_sessions_table
+❯ migrating database/migrations/1763600000005_create_game_moves_table
+[2K[1A[2K[G❯ migrated database/migrations/1763600000005_create_game_moves_table
+❯ migrating database/migrations/1763600000006_create_scores_table
+[2K[1A[2K[G❯ migrated database/migrations/1763600000006_create_scores_table
+
+Migrated in 969 ms
+✔✔✔✔✔✔[04:36:35.858] WARN (18882): Row not found
+    request_id: "ke7tcxqqxqvihbqlzvwg1sto"
+    x-request-id: "ke7tcxqqxqvihbqlzvwg1sto"
+✔✔✔[04:36:36.339] WARN (18882): This game session is already finished
+    request_id: "ukor4sp5f3j87p4zftnvgcxy"
+    x-request-id: "ukor4sp5f3j87p4zftnvgcxy"
+✔[04:36:36.472] WARN (18882): Game session not found
+    request_id: "rjyrxxdkitq4yvc3xa1mr543"
+    x-request-id: "rjyrxxdkitq4yvc3xa1mr543"
+✔✔
+
+ PASSED 
+
+Tests  37 passed (37)
+ Time  3s
